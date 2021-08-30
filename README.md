@@ -1,4 +1,4 @@
-# 109-呂侑達-Agilev4-A-GFLOPS-Aware-Convolutional-Neural-Network-Design
+# 109-呂侑達-Agilev4
 ## Outline
 [TOC]
 ## 資料來源
