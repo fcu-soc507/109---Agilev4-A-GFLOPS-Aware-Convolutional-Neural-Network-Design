@@ -13,6 +13,7 @@ The detail about yolov4 is [here](https://github.com/AlexeyAB/darknet/wiki).
 >> Model Introduction
 
 Model         | Backbone  | Neck | Model size | Input size | GFLOPS
+ :-: | :-: | :-:| :-:| :-:| :-:
 --------------|-----------|------|------------|------------|-------
 Agilev3       | 1,2,2,2   |  FPN |    65.5    | 512x512    | 49.5
 Agilev4       | 1,15,15,8 |  FPN |  116.9     | 512x512    | 49.36
