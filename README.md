@@ -27,6 +27,16 @@ Model         | backbone | FPS
 Agilev3       | 1,2,2,2    |7.22
 Agilev4       | 1,15,15,8  |7.23
 
+## Environment
+GPU=A40
+CPU=Intel(R) Xeon(R) Silver 4208 CPU @ 2.10GHz
+
+cuda==11.2
+cudnn==8.1.0
+python=3.7.11
+numpy==1.21.2
+opencv-python==4.5.3.56
+
 ## Install
 ```python=
 git clone https://github.com/AlexeyAB/darknet.git
