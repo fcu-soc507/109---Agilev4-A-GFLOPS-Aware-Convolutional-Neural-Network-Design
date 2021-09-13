@@ -19,7 +19,8 @@ Agilev4       | 1,15,15,8 |  FPN |  116.9     | 512x512    | 49.36
 
 >> Model evaluate AP on the MS COCO evaluation server (test-dev2017)
 >> FPS on Nvidia Jetson Nano by tensorRT
-The step of darknet model to trt model is from [jkjung-avt/tensorrt_demos](https://github.com/jkjung-avt/tensorrt_demos)
+The step of darknet model to trt model is from [jkjung-avt/tensorrt_demos](https://github.com/jkjung-avt/tensorrt_demos).
+
 We can get the value of FPS are almost the same.
 
 Model         | Backbone | FPS
@@ -49,7 +50,7 @@ git clone https://github.com/fcu-soc507/109-Agilev4.git
 ```
 Place [agilev4.weights](https://drive.google.com/file/d/1rjc-SiBnINQKSdr47IK99MeC4Csmqu8I/view?usp=sharing) into "109-Agilev4" folder
 
-![圖片](https://user-images.githubusercontent.com/50125053/133028759-5532a462-aff5-45d3-a8d1-d5fc4b80f2bc.png)
+<div align=center><img src="https://user-images.githubusercontent.com/50125053/133028759-5532a462-aff5-45d3-a8d1-d5fc4b80f2bc.png"></div>
 
 ## command
 > training 
