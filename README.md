@@ -1,7 +1,7 @@
 # 109-呂侑達-Agilev4
 we propose the CNN model which we call Agilev4. It only needs 25% of the weight and 50% of the computation complexity of the well-known neural network to be used in certain application scenarios to obtain similar accuracy. Our first idea is that we should design a just-enough CNN model according to the target application scenario. If the general-purpose scenario is needed, our second idea is that we can increase the number of weights or the depth of the neural network to enhance detection accuracy while keeping the amount of computation complexity the same by adjusting the stride size of each neural layer and the number of convolution sets. 
 
-<div align=center><img width="500" height="500" img src="https://user-images.githubusercontent.com/50125053/133028345-39cc983a-cb37-47e0-a7f6-9316fe3dbb1e.png"></div>
+<div align=center>< img src="https://user-images.githubusercontent.com/50125053/133029547-4ee5decd-162d-450d-8cc6-ca57cac1e9f3.png"></div>
 
 ## Source
 github: [darknet](https://github.com/AlexeyAB/darknet)
