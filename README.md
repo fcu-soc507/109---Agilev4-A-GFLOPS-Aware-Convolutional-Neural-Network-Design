@@ -40,20 +40,17 @@ place [agilev4.weights](https://drive.google.com/file/d/1rjc-SiBnINQKSdr47IK99Me
 ![圖片](https://user-images.githubusercontent.com/50125053/133028759-5532a462-aff5-45d3-a8d1-d5fc4b80f2bc.png)
 
 ## command
->> training 
->> 
+> training 
 ```python=
 ./darknet detector train 109-Agilev4/coco.data 109-Agilev4/agilev4.cfg 109-Agilev4/agilev4.weights data/dog.jpg -map -dont_show
 ```
 
->> test
->> 
+> test
 ```python=
 ./darknet detector test 109-Agilev4/coco.data 109-Agilev4/agilev4.cfg 109-Agilev4/agilev4.weights data/dog.jpg
 ```
 
->> cal map
->> 
+> cal map
 ```python=
 ./darknet detector map 109-Agilev4/coco.data 109-Agilev4/agilev4.cfg 109-Agilev4/agilev4.weights 
 ```
