@@ -4,9 +4,8 @@ we propose the CNN model which we call Agilev4. It only needs 25% of the weight 
 <div align=center><img src="https://user-images.githubusercontent.com/50125053/133029547-4ee5decd-162d-450d-8cc6-ca57cac1e9f3.png"></div>
 
 ## Source
-github: [darknet](https://github.com/AlexeyAB/darknet)
-
-detail information: [darknet-wiki](https://github.com/AlexeyAB/darknet/wiki)
+From from [yolov4](https://github.com/AlexeyAB/darknet).
+The detail about yolov4 is [here](https://github.com/AlexeyAB/darknet/wiki).
 
 ## Agilev4
 > Agilev4
@@ -23,7 +22,7 @@ Agilev4       | 1,15,15,8 |  FPN |  116.9     | 512x512    | 49.36
 The step of darknet model to trt model is from [jkjung-avt/tensorrt_demos](https://github.com/jkjung-avt/tensorrt_demos)
 
 
-Model         | Input size | FPS
+Model         | backbone | FPS
 --------------|------------|-----
 Agilev3       | 1,2,2,2    |7.22
 Agilev4       | 1,15,15,8  |7.23
