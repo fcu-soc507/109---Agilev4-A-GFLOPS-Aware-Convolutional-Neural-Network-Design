@@ -5,6 +5,7 @@ we propose the CNN model which we call Agilev4. It only needs 25% of the weight 
 
 ## Source
 From from [yolov4](https://github.com/AlexeyAB/darknet).
+
 The detail about yolov4 is [here](https://github.com/AlexeyAB/darknet/wiki).
 
 ## Agilev4
@@ -38,7 +39,21 @@ place [agilev4.weights](https://drive.google.com/file/d/1rjc-SiBnINQKSdr47IK99Me
 
 ![圖片](https://user-images.githubusercontent.com/50125053/133028759-5532a462-aff5-45d3-a8d1-d5fc4b80f2bc.png)
 
-## Inference
+## command
+>> training 
+>> 
+```python=
+./darknet detector train 109-Agilev4/coco.data 109-Agilev4/agilev4.cfg 109-Agilev4/agilev4.weights data/dog.jpg -map -dont_show
+```
+
+>> test
+>> 
 ```python=
 ./darknet detector test 109-Agilev4/coco.data 109-Agilev4/agilev4.cfg 109-Agilev4/agilev4.weights data/dog.jpg
+```
+
+>> cal map
+>> 
+```python=
+./darknet detector map 109-Agilev4/coco.data 109-Agilev4/agilev4.cfg 109-Agilev4/agilev4.weights 
 ```
